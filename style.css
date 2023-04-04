@@ -1,0 +1,41 @@
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+p {
+	margin: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+}
+
+.code {
+	background-color: #eee;
+	border-radius: 5px;
+	font-family: courier, monospace;
+	padding: 0 3px;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+
+	width: 80vmin;
+	height: 80vmin;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+.cell {
+	border: 5px black solid;
+	margin: 5px;
+	flex-grow: 1;
+}
+
+.pressed {
+	background-color: black;
+}
